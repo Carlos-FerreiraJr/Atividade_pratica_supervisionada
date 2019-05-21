@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aps;
+package controller;
+import view.Main;
 
 /**
  *
@@ -16,6 +17,8 @@ public class Aps {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new Main().setVisible(true);
+        
     }
     
 }

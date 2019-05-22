@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package view;
+import model.Info;
 import javax.swing.JOptionPane;
 
 
@@ -192,7 +193,7 @@ public class Main extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    String nome = "";
+
     private void txt_nomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nomeActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_nomeActionPerformed
@@ -201,9 +202,17 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_nomeFocusGained
 
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-          new game_panel().setVisible(true);
+        if(txt_nome.getText().equals("")){
+           
+          JOptionPane.showMessageDialog(null,"é necessário inserir um nome");
+        }else{
+           new game_panel().setVisible(true);
+        }
+        
+          
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -155,7 +155,13 @@ public class Main extends javax.swing.JFrame {
 
     private void kButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kButton1ActionPerformed
         // TODO add your handling code here:
-
+        if(txt_nome.getText().isEmpty())
+        {
+            JOptionPane.showMessageDialog(null,"Insira um nome para continuar");
+        }else{
+            new Game_panel().setVisible(true);
+         
+        }
     }//GEN-LAST:event_kButton1ActionPerformed
 
 

@@ -114,7 +114,6 @@ public class Game_panel extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(204, 204, 204));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("imagem 1 aqui ");
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jPanel3.setBackground(new java.awt.Color(41, 168, 73));
@@ -122,7 +121,7 @@ public class Game_panel extends javax.swing.JFrame {
         jLabel3.setBackground(new java.awt.Color(41, 168, 73));
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("qual dessas duas imagens tem maior impacto sobre o meio ambiente ??");
+        jLabel3.setText("qual desses materias tem maior custo ? ");
         jLabel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

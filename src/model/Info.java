@@ -5,12 +5,33 @@
  */
 package model;
 
+import javax.swing.Icon;
+
 /**
  *
  * @author carlos
  */
 public class Info {
+
     private String nome = "";
+    private String nome1 = "";
+    private Icon imagem;
+ 
+    public Icon getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(Icon imagem) {
+        this.imagem = imagem;
+    }
+
+    public String getNome1() {
+        return nome1;
+    }
+
+    public void setNome1(String nome1) {
+        this.nome1 = nome1;
+    }
 
     public String getNome() {
         return nome;
@@ -20,8 +41,8 @@ public class Info {
         this.nome = nome;
     }
 
-    public double somar(double num){
+    public double somar(double num) {
         return num;
     }
-    
+
 }

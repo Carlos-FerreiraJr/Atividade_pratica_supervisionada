@@ -1,5 +1,4 @@
 # Projeto para atividade prática supervisionada 
-#### project to University Activity 
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
